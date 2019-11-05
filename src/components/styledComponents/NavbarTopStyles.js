@@ -1,6 +1,6 @@
 import styled from "styled-components"
 // grid container
-const Nav = styled.nav`
+const NavbarTopStyles = styled.nav`
   .navbar-title {
     color: black;
     text-transform: uppercase;
@@ -36,4 +36,4 @@ const Nav = styled.nav`
   }
 `
 
-export default Nav
+export default NavbarTopStyles

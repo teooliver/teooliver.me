@@ -1,22 +1,21 @@
 import React from "react"
-import Nav from "./styledComponents/Nav"
+import NavbarTopStyles from "./styledComponents/NavbarTopStyles"
 
-const NavbarTopFixed = () => {
+const NavbarTop = () => {
   return (
-    <Nav>
+    <NavbarTopStyles>
       <div className="hide-on-large top">
         <a className="button-toggle-nav">
           <i className="open-nav-icon fas fa-bars"></i>
         </a>
-
         <div className="navbar-title" id="title ">
           <a className="title" href="#intro">
             Teo Oliver
           </a>
         </div>
       </div>
-    </Nav>
+    </NavbarTopStyles>
   )
 }
 
-export default NavbarTopFixed
+export default NavbarTop

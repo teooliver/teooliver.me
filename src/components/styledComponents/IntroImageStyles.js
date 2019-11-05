@@ -1,11 +1,13 @@
 import styled from "styled-components"
 
-const IntroImage = styled.div`
+const IntroImageStyles = styled.section`
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 0;
   .intro-image {
-    /* display: none; */
     max-height: auto;
     max-width: 100%;
   }
 `
 
-export default IntroImage
+export default IntroImageStyles
