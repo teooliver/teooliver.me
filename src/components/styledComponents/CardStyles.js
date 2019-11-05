@@ -22,6 +22,7 @@ const CardStyles = styled.section`
   }
 
   .card-title {
+    margin-top: 0.75rem;
     margin-bottom: 0.75rem;
     font-size: 1.68rem;
   }
