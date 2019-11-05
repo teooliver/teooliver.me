@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 const GridContainer = styled.div`
   display: grid;
-  /* grid-column-gap: 50px; */
-  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(auto-fill, 24rem);
   margin: 2rem;
 `
 

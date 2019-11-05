@@ -9,7 +9,7 @@ const SkillsStyles = styled.div`
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
     width: 90%;
-    height: 18rem;
+    height: auto;
 
     .card-header {
       font-size: 2rem;
@@ -20,9 +20,11 @@ const SkillsStyles = styled.div`
     }
 
     .card-body {
+      box-sizing: content-box;
       display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      margin-top: 2rem;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      margin-top: 1rem;
+      margin-bottom: 1rem;
 
       .text-center {
         text-align: center;

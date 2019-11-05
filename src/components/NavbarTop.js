@@ -1,5 +1,6 @@
 import React from "react"
 import NavbarTopStyles from "./styledComponents/NavbarTopStyles"
+import { Link, animateScroll as scroll } from "react-scroll"
 
 const NavbarTop = () => {
   return (
@@ -8,10 +9,16 @@ const NavbarTop = () => {
         <a className="button-toggle-nav">
           <i className="open-nav-icon fas fa-bars"></i>
         </a>
-        <div className="navbar-title" id="title ">
-          <a className="title" href="#intro">
+        <div className="navbar-title" id="title">
+          <Link
+            className="title"
+            to="intro"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
             Teo Oliver
-          </a>
+          </Link>
         </div>
       </div>
     </NavbarTopStyles>

@@ -47,15 +47,12 @@ const NavbarSideStyles = styled.nav`
 
   li.logo,
   li.logo:hover {
-    /* height: 120px; */
-    /* padding-left: 20px; */
     font-weight: bolder;
     background-color: #ffffff;
   }
 
   .active {
     background-color: rgba(0, 0, 0, 0.1);
-    padding-left: 2px;
     transition: 100ms;
   }
 
@@ -65,6 +62,11 @@ const NavbarSideStyles = styled.nav`
     height: 1px;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  @media screen and (max-width: 900px) {
+    position: relative;
+    display: none;
   }
 `
 
