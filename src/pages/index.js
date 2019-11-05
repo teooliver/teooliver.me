@@ -17,7 +17,9 @@ const IndexPage = () => (
     <SEO title="Teo Oliver" />
     <NavbarSide />
     <BodyContainer>
-      <Intro />
+      <section id="intro">
+        <Intro />
+      </section>
       <section id="about">
         <PageTitleStyles>About</PageTitleStyles>
         <About />

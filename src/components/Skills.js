@@ -1,17 +1,96 @@
 import React from "react"
+import SkillsStyles from "./styledComponents/SkillsSytles"
+import html5_logo from "../images/html5.png"
+import ccs3_logo from "../images/css3.png"
+import react_logo from "../images/react.png"
+import redux_logo from "../images/redux-logo.png"
+import bootstrap_logo from "../images/bootstrap.png"
+import jquery_logo from "../images/jquery.png"
+import javascript_logo from "../images/javascript.png"
+import node_logo from "../images/nodejs.png"
+import mongodb_logo from "../images/mongodb.png"
+import heroku_logo from "../images/heroku.png"
+import netlify_logo from "../images/netlify_logo.png"
+import github_logo from "../images/github.png"
 
 const Skills = () => {
   return (
-    <div>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum officiis
-        eligendi aspernatur! In quos iure incidunt, officiis amet adipisci quis
-        laboriosam voluptatibus fugiat? Quia, quod. Consectetur ipsum molestias
-        qui quia. Quasi consequatur quod amet iusto. Voluptate iste assumenda
-        autem quia animi. Temporibus, officia exercitationem. Quisquam porro
-        voluptatibus eius ducimus, molestiae ratione rerum magnam quam nisi
-      </p>
-    </div>
+    <>
+      <SkillsStyles>
+        <div className="card">
+          <div className="card-header">FrontEnd</div>
+          <div className="card-body">
+            <div className="text-center">
+              <img className="badge-img" src={html5_logo} alt="" />
+              Html5
+            </div>
+            <div className="text-center">
+              <img className="badge-img" src={ccs3_logo} alt="" />
+              CSS3
+            </div>
+
+            <div className="text-center">
+              <img
+                className="badge-img"
+                // style="width: 150px"
+                src={react_logo}
+                alt=""
+              />
+              React
+            </div>
+            <div className="text-center">
+              <img
+                // style="margin-bottom: 14px; padding-top: 8px"
+                className="badge-img"
+                src={redux_logo}
+                alt=""
+              />
+              Redux
+            </div>
+            <div className="text-center">
+              <img className="badge-img" src={bootstrap_logo} alt="" />
+              Bootstrap
+            </div>
+            <div className="text-center">
+              <img className="badge-img" src={jquery_logo} alt="" />
+              jQuery
+            </div>
+          </div>
+        </div>
+      </SkillsStyles>
+      <SkillsStyles>
+        <div className="card">
+          <div className="card-header">BackEnd</div>
+          <div className="card-body">
+            <div className="text-center">
+              <img className="badge-img" src={javascript_logo} alt="" />
+              Javascrip
+            </div>
+            <div className="text-center">
+              <img className="badge-img" src={node_logo} alt="" />
+              Node Js
+            </div>
+            <div className="text-center">
+              <img className="badge-img" src={mongodb_logo} alt="" />
+              MongoDb
+            </div>
+
+            <div className="text-center">
+              <img className="badge-img" src={heroku_logo} alt="" />
+              Heroku
+            </div>
+            <div className="text-center">
+              <img className="badge-img" src={netlify_logo} alt="" />
+              Netlify
+            </div>
+            <div className="text-center">
+              <img className="badge-img" src={github_logo} alt="" />
+              GitHub
+            </div>
+          </div>
+        </div>
+      </SkillsStyles>
+    </>
   )
 }
 

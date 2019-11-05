@@ -8,13 +8,17 @@ const NavbarSide = () => {
       <div className="side-nav fixed" id="navbar">
         <ul>
           <li className="logo">
-            <a
+            <Link
+              activeClass="active"
               className="scrool-link"
-              href="#intro"
+              to="intro"
+              spy={true}
+              smooth={true}
+              duration={500}
               aria-label="Navigate to the beginning of the page"
             >
               <h1>Teo Oliver</h1>
-            </a>
+            </Link>
           </li>
           <hr />
           <li>
