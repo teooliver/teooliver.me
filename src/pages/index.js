@@ -14,20 +14,30 @@ import BodyContainer from "../components/styledComponents/BodyContainer"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Teo Oliver" />
     <NavbarSide />
     <BodyContainer>
       <Intro />
-      <PageTitleStyles>About</PageTitleStyles>
-      <About />
-      <PageTitleStyles>Projects</PageTitleStyles>
-      <Projects />
-      <PageTitleStyles>Skills</PageTitleStyles>
-      <Skills />
-      <PageTitleStyles>Education</PageTitleStyles>
-      <Education />
-      <PageTitleStyles>Contact</PageTitleStyles>
-      <Contact />
+      <section id="about">
+        <PageTitleStyles>About</PageTitleStyles>
+        <About />
+      </section>
+      <section id="projects">
+        <PageTitleStyles>Projects</PageTitleStyles>
+        <Projects />
+      </section>
+      <section id="skills">
+        <PageTitleStyles>Skills</PageTitleStyles>
+        <Skills />
+      </section>
+      <section id="education">
+        <PageTitleStyles>Education</PageTitleStyles>
+        <Education />
+      </section>
+      <section id="contact">
+        <PageTitleStyles>Contact</PageTitleStyles>
+        <Contact />
+      </section>
       <Link to="/page-2/">Go to page 2</Link>
     </BodyContainer>
   </Layout>

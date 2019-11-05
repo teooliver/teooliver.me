@@ -53,7 +53,7 @@ const NavbarSideStyles = styled.nav`
     background-color: #ffffff;
   }
 
-  .active-link {
+  .active {
     background-color: rgba(0, 0, 0, 0.1);
     padding-left: 2px;
     transition: 100ms;

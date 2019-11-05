@@ -1,5 +1,6 @@
 import React from "react"
 import NavbarSideStyles from "./styledComponents/NavbarSideStyles"
+import { Link, animateScroll as scroll } from "react-scroll"
 
 const NavbarSide = () => {
   return (
@@ -16,57 +17,77 @@ const NavbarSide = () => {
             </a>
           </li>
           <hr />
-          <li className="active-link">
-            <a
+          <li>
+            <Link
+              activeClass="active"
               className="scrool-link"
-              href="#about"
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
               aria-label="Navigate to the beginning of the page"
             >
               <span>About</span>
-            </a>
+            </Link>
           </li>
           <hr />
           <li>
-            <a
+            <Link
+              activeClass="active"
               className="scrool-link"
-              href="#projects"
+              to="projects"
+              spy={true}
+              smooth={true}
+              duration={500}
               aria-label="Navigate to the beginning of the page"
             >
               <span>Projects</span>
-            </a>
+            </Link>
           </li>
           <hr />
 
           <li>
-            <a
+            <Link
+              activeClass="active"
               className="scrool-link"
-              href="#skills"
+              to="skills"
+              spy={true}
+              smooth={true}
+              duration={500}
               aria-label="Navigate to the beginning of the page"
             >
               <span>Skills</span>
-            </a>
+            </Link>
           </li>
 
           <hr />
           <li>
-            <a
+            <Link
+              activeClass="active"
               className="scrool-link"
-              href="#education"
+              to="education"
+              spy={true}
+              smooth={true}
+              duration={500}
               aria-label="Navigate to the beginning of the page"
             >
               <span>Education</span>
-            </a>
+            </Link>
           </li>
 
           <hr />
           <li>
-            <a
+            <Link
+              activeClass="active"
               className="scrool-link"
-              href="#contact"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
               aria-label="Navigate to the beginning of the page"
             >
               <span>Contact</span>
-            </a>
+            </Link>
           </li>
           <hr />
           <li>
