@@ -8,6 +8,7 @@ const ContactCardStyles = styled.div`
   width: 540px;
   height: 300px;
   background: #fefefe;
+  background-image: linear-gradient(to right, #d2d7db, #bdc3c7);
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 3px 5px 20px rgba(0, 0, 0, 0.2);
 
@@ -35,6 +36,8 @@ const ContactCardStyles = styled.div`
 
     h1 {
       font-size: 3rem;
+      margin-top: 3rem;
+      margin-bottom: 0.5rem;
     }
   }
 
@@ -53,6 +56,23 @@ const ContactCardStyles = styled.div`
 
   .p-contact i {
     font-size: 2rem;
+  }
+
+  @media screen and (max-width: 900px) {
+    width: 270px;
+    height: 150px;
+    font-size: 0.75rem;
+    .contact {
+      display: none;
+    }
+    .content {
+      margin: 2rem;
+      padding-top: 0.2rem;
+
+      h1 {
+        display: none;
+      }
+    }
   }
 `
 
