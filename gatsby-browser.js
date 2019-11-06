@@ -5,3 +5,11 @@
  */
 
 // You can delete this file if you're not using it
+
+// import React from "react"
+// import { NavProvider } from "./src/context/NavContext"
+
+// // eslint-disable-next-line react/prop-types
+// export const wrapRootElement = ({ element }) => {
+//   return <NavProvider>{element}</NavProvider>
+// }

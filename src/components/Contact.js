@@ -5,23 +5,24 @@ const Contact = () => {
   return (
     <>
       <ContactCardStyles>
-        <div class="content">
+        <div className="content">
+          <div className="contact">Contact Me</div>
           <h1>Teo Oliver</h1>
-          <p class="p-contact">
+          <p className="p-contact">
             <a href="">
-              <i class="fa fa-envelope"></i>
+              <i className="fa fa-envelope"></i>
             </a>
             <a href="">teo.liz.oli@gmail.com</a>
           </p>
-          <p class="p-contact">
+          <p className="p-contact">
             <a href="">
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
             </a>
             <a href="">github.com/teo-oliver</a>
           </p>
-          <p class="p-contact">
+          <p className="p-contact">
             <a href="">
-              <i class="fab fa-linkedin"></i>
+              <i className="fab fa-linkedin"></i>
             </a>
             <a href="">linkedin.com/in/teooliver</a>
           </p>

@@ -1,10 +1,5 @@
 import React from "react"
-import NavbarTop from "./NavbarTop"
 
-const Header = () => (
-  <header>
-    <NavbarTop />
-  </header>
-)
+const Header = () => <header></header>
 
 export default Header
