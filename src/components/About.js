@@ -5,17 +5,13 @@ const About = () => {
   return (
     <AboutStyles>
       <blockquote>
-        Full stack developer with a passion for learning, collaboration and
+        Front-End developer with a passion for learning, collaboration and
         music.
       </blockquote>
       <p>
-        I am full stack web developer. I used to work with sound for movies and
-        games, but with time I got more and more interested in the programming
-        part of it.
-        <br />
-        I've worked with Unreal Engine and Unity but my passion for web
-        development led me to invest most of my programing time in Javascript,
-        C# and Typescript.
+        In my previous life I used to work doing sound for movies but with time
+        I got more and more interested in the programming part of it wich led me
+        to work with games and then to web development.
       </p>
     </AboutStyles>
   )

@@ -1,9 +1,9 @@
 import React from "react"
-import CardStyles from "../styledComponents/CardStyles"
+import ProjectCardStyles from "../styledComponents/ProjectCardStyles"
 
 const ProjectCard = ({ img, title, description, link, btnText }) => {
   return (
-    <CardStyles>
+    <ProjectCardStyles>
       <img className="project-img" src={img} alt="inventory" />
       <div className="card-body">
         <div className="card-title">{title}</div>
@@ -12,7 +12,7 @@ const ProjectCard = ({ img, title, description, link, btnText }) => {
           {btnText}
         </a>
       </div>
-    </CardStyles>
+    </ProjectCardStyles>
   )
 }
 

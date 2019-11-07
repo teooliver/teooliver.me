@@ -15,7 +15,7 @@ const AboutStyles = styled.div`
   }
   p {
     font-size: 1.68rem;
-    line-height: 2.88rem;
+    line-height: 3rem;
     margin-top: 0;
     margin-bottom: 2.88rem;
   }

@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-const CardStyles = styled.section`
+const ProjectCardStyles = styled.section`
   position: relative;
   border-radius: 0.25rem;
   width: 24rem;
@@ -55,4 +55,4 @@ const CardStyles = styled.section`
   }
 `
 
-export default CardStyles
+export default ProjectCardStyles
