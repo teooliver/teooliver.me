@@ -10,9 +10,22 @@ html {
   font-family: "Roboto", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  font-size: 18px;
 }
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
 }

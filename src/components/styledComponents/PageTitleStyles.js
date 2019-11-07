@@ -6,9 +6,9 @@ const PageTitleStyles = styled.h3`
   color: #ffffff;
   font-weight: 200;
   font-size: 1.75rem;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
   margin-top: 0;
-  padding: 30px 40px;
+  padding: 2rem 4rem;
   text-transform: uppercase;
 `
 
