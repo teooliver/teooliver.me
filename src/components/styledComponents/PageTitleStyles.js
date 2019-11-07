@@ -8,7 +8,7 @@ const PageTitleStyles = styled.h3`
   font-size: 1.75rem;
   margin-bottom: 3rem;
   margin-top: 0;
-  padding: 2rem 4rem;
+  padding: 1.2rem 4rem;
   text-transform: uppercase;
 `
 
