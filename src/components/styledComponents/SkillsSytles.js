@@ -31,6 +31,7 @@ const SkillsStyles = styled.div`
       }
 
       .badge-img {
+        /* todo: change pixels to rem */
         max-height: 100px;
         max-width: 100px;
         margin-bottom: 10px;

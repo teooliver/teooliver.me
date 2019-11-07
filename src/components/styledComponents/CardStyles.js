@@ -7,7 +7,6 @@ const CardStyles = styled.section`
   display: flex;
   flex: 1 0 0%;
   flex-direction: column;
-  margin-right: 15px;
   margin-bottom: 1.5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -28,7 +27,7 @@ const CardStyles = styled.section`
   }
 
   .card-body {
-    padding: 2px 16px;
+    padding: 0.1rem 0.9rem;
   }
   .card-text {
     font-size: 1rem;
@@ -54,11 +53,6 @@ const CardStyles = styled.section`
     border-radius: 0.25rem;
     text-decoration: none;
   }
-  /* p {
-    font-size: 1.68rem;
-    font-weight: 300;
-    line-height: 2.88rem;
-  } */
 `
 
 export default CardStyles

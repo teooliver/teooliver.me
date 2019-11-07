@@ -13,6 +13,7 @@ const ContactCardStyles = styled.div`
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 3px 5px 20px rgba(0, 0, 0, 0.2);
 
   .contact {
+    /* todo: change px to rem */
     position: absolute;
     top: 1.8rem;
     left: 1.8rem;
