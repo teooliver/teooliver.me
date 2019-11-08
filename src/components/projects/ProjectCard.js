@@ -16,7 +16,12 @@ const ProjectCard = ({ img, title, description, link, btnText, tools }) => {
         ) : (
           ""
         )}
-        <a href={link} className="btn" target="_blank">
+        <a
+          href={link}
+          className="btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {btnText}
         </a>
       </div>

@@ -39,6 +39,22 @@ const Projects = () => {
         btnText="View Code"
       />
       <ProjectCard
+        img={teooliver_me_image}
+        title="teooliver.me"
+        description="Fully responsive Portifolio website"
+        tools={"React, Gatsby, styled-components, ContextAPI"}
+        link="https://github.com/teo-oliver/teooliver.me"
+        btnText="View Code"
+      />
+      <ProjectCard
+        img={password_generator_image}
+        title="Password Generator"
+        description="React with Typescript app"
+        tools={"React, Typescript, styled-components"}
+        link="https://serene-yalow-7ff20e.netlify.com/"
+        btnText="View Online"
+      />
+      <ProjectCard
         img={todo_list_image}
         title="Mern Todo List"
         description="A Simple Todo List App - MERN stack"
@@ -64,22 +80,6 @@ const Projects = () => {
         tools={"Unreal Engine, Fmod, MIDI, Reaper, Orchestral Tools"}
         link="https://www.youtube.com/watch?v=h5YfiaVKU5k"
         btnText="View Trailer"
-      />
-      <ProjectCard
-        img={teooliver_me_image}
-        title="teooliver.me"
-        description="Personal/Portifolio website"
-        tools={"React, Gatsby, styled-components, ContextAPI"}
-        link="https://github.com/teo-oliver/teooliver.me"
-        btnText="View Code"
-      />
-      <ProjectCard
-        img={password_generator_image}
-        title="Password Generator"
-        description="React with Typescript app"
-        tools={"React, Typescript, styled-components"}
-        link="https://serene-yalow-7ff20e.netlify.com/"
-        btnText="View Online"
       />
     </GridContainer>
   )

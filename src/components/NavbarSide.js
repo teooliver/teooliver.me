@@ -1,6 +1,6 @@
 import React from "react"
 import NavbarSideStyles from "./styledComponents/NavbarSideStyles"
-import { Link, animateScroll as scroll } from "react-scroll"
+import { Link } from "react-scroll"
 
 const NavbarSide = () => {
   return (
@@ -101,7 +101,7 @@ const NavbarSide = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span>Resume</span>
+              <span>Code</span>
             </a>
           </li>
           <hr />

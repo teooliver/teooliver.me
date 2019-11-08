@@ -9,9 +9,9 @@ const About = () => {
         music.
       </blockquote>
       <p>
-        In my previous life I used to work doing sound for movies but with time
-        I got more and more interested in the programming part of it wich led me
-        to work with games and then to web development.
+        I used to work doing sound for movies and tv but with time I got more
+        and more interested in the programming part of it wich led me to work
+        with games and then to web development.
       </p>
     </AboutStyles>
   )

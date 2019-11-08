@@ -21,23 +21,29 @@ const NavbarTopStyles = styled.nav`
       left: 44%;
       z-index: -1;
 
-      a.title {
+      .title {
         color: black;
         text-decoration: none;
       }
     }
 
+    button {
+      margin: 0;
+      padding: 0;
+      border: none;
+      background-color: transparent;
+    }
+
     .open-nav-icon {
       color: black;
       padding: 20px;
+      &:hover {
+        color: #008073;
+        /* rotate */
+      }
     }
 
-    .open-nav-icon:hover {
-      color: #008073;
-      /* rotate */
-    }
-
-    a.button-toggle-nav {
+    .button-toggle-nav {
       float: left;
       /* margin-left: 20px; */
     }

@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 import NavbarSlideOnSmallStyles from "./styledComponents/NavbarSlideOnSmallStyles"
-import { Link, animateScroll as scroll } from "react-scroll"
+import { Link } from "react-scroll"
 import { NavContext } from "../context/NavContext"
 
 const NavbarSlideOnSmall = () => {
@@ -90,7 +90,7 @@ const NavbarSlideOnSmall = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span>Resume</span>
+              <span>Code</span>
             </a>
           </li>
           <hr />

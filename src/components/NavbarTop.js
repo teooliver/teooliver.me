@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 import NavbarTopStyles from "./styledComponents/NavbarTopStyles"
-import { Link, animateScroll as scroll } from "react-scroll"
+import { Link } from "react-scroll"
 import { NavContext } from "../context/NavContext"
 
 const NavbarTop = () => {
@@ -9,9 +9,9 @@ const NavbarTop = () => {
   return (
     <NavbarTopStyles>
       <div className="hide-on-large top">
-        <a className="button-toggle-nav" onClick={() => handleSlideNav()}>
+        <button className="button-toggle-nav" onClick={() => handleSlideNav()}>
           <i className="open-nav-icon fas fa-bars"></i>
-        </a>
+        </button>
         <div className="navbar-title" id="title">
           <Link
             className="title"

@@ -46,19 +46,22 @@ const ContactCardStyles = styled.div`
     color: black;
     margin-top: 0;
     margin-bottom: 0.8rem;
-  }
+    a {
+      display: inline-block;
+      text-align: center;
+      position: relative;
+      color: rgb(70, 70, 70);
+      &:hover {
+        color: #4c8bad;
+      }
+    }
 
-  .p-contact a {
-    margin-right: 1rem;
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    color: rgb(70, 70, 70);
-    vertical-align: middle;
-  }
-
-  .p-contact i {
-    font-size: 1.8rem;
+    i {
+      font-size: 1.8rem;
+      margin-right: 1rem;
+      text-align: center;
+      vertical-align: middle;
+    }
   }
 
   @media screen and (max-width: 900px) {

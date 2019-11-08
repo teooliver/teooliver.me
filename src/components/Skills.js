@@ -12,6 +12,8 @@ import mongodb_logo from "../images/mongodb.png"
 import heroku_logo from "../images/heroku.png"
 import netlify_logo from "../images/netlify_logo.png"
 import github_logo from "../images/github.png"
+import typescript_logo from "../images/typescript-logo.svg"
+import gatsby_logo from "../images/gatsby_logo.png"
 
 const Skills = () => {
   return (
@@ -20,6 +22,14 @@ const Skills = () => {
         <div className="card">
           <div className="card-header">FrontEnd</div>
           <div className="card-body">
+            <div className="text-center">
+              <img className="badge-img" src={javascript_logo} alt="" />
+              Javascrip
+            </div>
+            <div className="text-center">
+              <img className="badge-img" src={typescript_logo} alt="" />
+              Typescript
+            </div>
             <div className="text-center">
               <img className="badge-img" src={html5_logo} alt="" />
               Html5
@@ -75,6 +85,10 @@ const Skills = () => {
               MongoDb
             </div>
 
+            <div className="text-center">
+              <img className="badge-img" src={gatsby_logo} alt="" />
+              Gatsby
+            </div>
             <div className="text-center">
               <img className="badge-img" src={heroku_logo} alt="" />
               Heroku
