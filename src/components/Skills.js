@@ -40,17 +40,12 @@ const Skills = () => {
             </div>
 
             <div className="text-center">
-              <img
-                className="badge-img"
-                // style="width: 150px"
-                src={react_logo}
-                alt=""
-              />
+              <img className="badge-img" src={react_logo} alt="" />
               React
             </div>
             <div className="text-center">
               <img
-                // style="margin-bottom: 14px; padding-top: 8px"
+                style={{ marginBottom: "11px", paddingTop: "22px" }}
                 className="badge-img"
                 src={redux_logo}
                 alt=""

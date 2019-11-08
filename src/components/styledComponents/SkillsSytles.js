@@ -1,15 +1,15 @@
 import styled from "styled-components"
 
 const SkillsStyles = styled.div`
-  margin: 2rem;
-
   .card {
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    background-color: white;
     position: relative;
-    min-width: 0;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0.25rem;
     width: 90%;
     height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
 
     .card-header {
       font-size: 2rem;

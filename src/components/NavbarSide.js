@@ -90,7 +90,9 @@ const NavbarSide = () => {
               duration={500}
               aria-label="Navigate to the beginning of the page"
             >
-              <span>Contact</span>
+              <span>
+                <i className="fa fa-envelope"></i>Contact
+              </span>
             </Link>
           </li>
           <hr />
@@ -101,7 +103,9 @@ const NavbarSide = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span>Code</span>
+              <span>
+                <i className="fab fa-github"></i>Code
+              </span>
             </a>
           </li>
           <hr />

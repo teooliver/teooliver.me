@@ -43,16 +43,25 @@ const ContactCardStyles = styled.div`
   }
 
   .p-contact {
-    color: black;
+    color: rgb(70, 70, 70);
     margin-top: 0;
     margin-bottom: 0.8rem;
     a {
+      text-decoration: none;
       display: inline-block;
       text-align: center;
       position: relative;
       color: rgb(70, 70, 70);
       &:hover {
         color: #4c8bad;
+        transition: color 100ms ease-in-out;
+        span {
+          border-bottom: 1px solid #4c8bad;
+          transition: 100ms ease-in-out;
+        }
+      }
+      span {
+        border-bottom: 1px solid transparent;
       }
     }
 
@@ -64,16 +73,16 @@ const ContactCardStyles = styled.div`
     }
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 600px) {
     width: 270px;
     height: 150px;
-    font-size: 0.75rem;
+    font-size: 1rem;
     .contact {
       display: none;
     }
     .content {
       margin: 2rem;
-      padding-top: 0.2rem;
+      padding-top: 10%;
 
       h1 {
         display: none;

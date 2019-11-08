@@ -5,7 +5,7 @@ const NavbarSideStyles = styled.nav`
     font-size: 2.5rem;
     margin: 0;
     margin-bottom: 0.5rem;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.2;
   }
   .side-nav.fixed {
@@ -24,6 +24,10 @@ const NavbarSideStyles = styled.nav`
     list-style-type: none;
     margin-left: 0;
     padding-left: 0px;
+  }
+
+  li i {
+    margin-right: 0.4rem;
   }
 
   li a {
@@ -47,7 +51,7 @@ const NavbarSideStyles = styled.nav`
 
   li.logo,
   li.logo:hover {
-    font-weight: bolder;
+    font-weight: 300;
     background-color: #ffffff;
   }
 
