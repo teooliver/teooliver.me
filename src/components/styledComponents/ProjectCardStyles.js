@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 const ProjectCardStyles = styled.section`
+  background-color: #f9f9f9;
   position: relative;
   border-radius: 0.25rem;
   width: 24rem;
@@ -13,6 +14,14 @@ const ProjectCardStyles = styled.section`
   word-wrap: wrap break-word;
   :hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  hr {
+    padding: 0;
+    margin: 0;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   .project-img {
@@ -34,6 +43,9 @@ const ProjectCardStyles = styled.section`
     line-height: 1.5;
     margin-top: 0;
     margin-bottom: 1rem;
+    span {
+      font-weight: bolder;
+    }
   }
 
   .btn {

@@ -8,7 +8,8 @@ const ContactCardStyles = styled.div`
   width: 540px;
   height: 300px;
   background: #fefefe;
-  background-image: linear-gradient(to right, #d2d7db, #bdc3c7);
+  /* background-image: linear-gradient(to right, #d2d7db, #bdc3c7); */
+  background-image: linear-gradient(to right, #f7f7f7, #e8edf2);
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 3px 5px 20px rgba(0, 0, 0, 0.2);
 
