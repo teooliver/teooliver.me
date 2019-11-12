@@ -16,7 +16,7 @@ const Projects = () => {
     <GridContainer>
       <ProjectCard
         img={inventory_image}
-        title="Inventory"
+        title="Inventory Management"
         description="Mern App to help reduce retail shrinkage"
         tools="React, redux, lodash, express, mongoDb, mongoose, express-validator, passport "
         link="https://whispering-anchorage-26890.herokuapp.com/"
