@@ -93,7 +93,7 @@ const NavbarSlideOnSmall = () => {
               rel="noopener noreferrer"
             >
               <span>
-                <i className="fa fa-github"></i>Code
+                <i className="fab fa-github"></i>Code
               </span>
             </a>
           </li>
