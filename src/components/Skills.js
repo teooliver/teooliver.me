@@ -53,6 +53,10 @@ const Skills = () => {
               Redux
             </div>
             <div className="text-center">
+              <img className="badge-img" src={gatsby_logo} alt="" />
+              Gatsby
+            </div>
+            <div className="text-center">
               <img className="badge-img" src={bootstrap_logo} alt="" />
               Bootstrap
             </div>
@@ -80,10 +84,6 @@ const Skills = () => {
               MongoDb
             </div>
 
-            <div className="text-center">
-              <img className="badge-img" src={gatsby_logo} alt="" />
-              Gatsby
-            </div>
             <div className="text-center">
               <img className="badge-img" src={heroku_logo} alt="" />
               Heroku
