@@ -9,18 +9,31 @@ import devconnector_image from "../images/DevoConnector_v2.png"
 import black_iris_image from "../images/Black_Iris.jpg"
 import teooliver_me_image from "../images/teooliver_me_image.png"
 import password_generator_image from "../images/password_generator_image.png"
+import habit_tracker_table from "../images/habit-tracker-table.png"
 
 const Projects = () => {
   return (
     //Todo: add teooliver.me and password generator
     <GridContainer>
       <ProjectCard
+        img={habit_tracker_table}
+        title="Habit-Tracker"
+        description="Full Stack Mern App with User Authentication"
+        tools="React, redux, lodash, express, REST API, mongoDb, mongoose, express-validator, jsonwebtoken, bcryptjs "
+        link="https://trackhab.herokuapp.com/"
+        btnText="View Online"
+        link2="https://github.com/teo-oliver/habit-tracker-js"
+        btnText2="View Code"
+      />
+      <ProjectCard
         img={inventory_image}
         title="Inventory Management"
-        description="Mern App to help reduce retail shrinkage"
-        tools="React, redux, lodash, express, mongoDb, mongoose, express-validator, passport "
+        description="Full Stack Mern App to help reduce retail shrinkage"
+        tools="React, redux, lodash, express, REST API, mongoDb, mongoose, express-validator, passport "
         link="https://whispering-anchorage-26890.herokuapp.com/"
         btnText="View Online"
+        link2="https://github.com/teo-oliver/date-checking-app"
+        btnText2="View Code"
       />
       <ProjectCard
         img={ligth_out_image}
@@ -29,6 +42,8 @@ const Projects = () => {
         tools={"React, Howler, react-transition-group "}
         link="https://nifty-haibt-8b22b3.netlify.com/"
         btnText="View Online"
+        link2="https://github.com/teo-oliver/lights-out-game"
+        btnText2="View Code"
       />
       <ProjectCard
         img={retrace_image}
@@ -53,6 +68,8 @@ const Projects = () => {
         tools={"React, Typescript, styled-components"}
         link="https://serene-yalow-7ff20e.netlify.com/"
         btnText="View Online"
+        link2="https://github.com/teo-oliver/password-generator"
+        btnText2="View Code"
       />
       <ProjectCard
         img={todo_list_image}
@@ -63,6 +80,8 @@ const Projects = () => {
         }
         link="https://mysterious-spire-91968.herokuapp.com/"
         btnText="View Online"
+        link2="https://github.com/teo-oliver/MERN_TodoList"
+        btnText2="View Code"
       />
       <ProjectCard
         img={devconnector_image}
@@ -71,6 +90,8 @@ const Projects = () => {
                     WebDev"
         link="https://evening-coast-59870.herokuapp.com/"
         btnText="View Online"
+        link2="https://github.com/teo-oliver/DevConnector_v2"
+        btnText2="View Code"
       />
       <ProjectCard
         img={black_iris_image}

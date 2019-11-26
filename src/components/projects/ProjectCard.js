@@ -1,7 +1,16 @@
 import React from "react"
 import ProjectCardStyles from "../styledComponents/ProjectCardStyles"
 
-const ProjectCard = ({ img, title, description, link, btnText, tools }) => {
+const ProjectCard = ({
+  img,
+  title,
+  description,
+  link,
+  link2,
+  btnText,
+  btnText2,
+  tools,
+}) => {
   return (
     <ProjectCardStyles>
       <img className="project-img" src={img} alt="inventory" />
@@ -13,9 +22,7 @@ const ProjectCard = ({ img, title, description, link, btnText, tools }) => {
           <p className="card-text">
             <span>Tools:</span> {tools}
           </p>
-        ) : (
-          ""
-        )}
+        ) : null}
         <a
           href={link}
           className="btn"
@@ -24,6 +31,16 @@ const ProjectCard = ({ img, title, description, link, btnText, tools }) => {
         >
           {btnText}
         </a>
+        {btnText2 ? (
+          <a
+            href={link2}
+            className="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {btnText2}
+          </a>
+        ) : null}
       </div>
     </ProjectCardStyles>
   )
