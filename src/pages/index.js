@@ -1,19 +1,19 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { NavProvider } from "../context/NavContext"
-import PageTitleStyles from "../components/styledComponents/PageTitleStyles"
-import Mask from "../components/Mask"
-import About from "../components/About"
-import Intro from "../components/Intro"
-import Projects from "../components/Projects"
-import Skills from "../components/Skills"
-import Education from "../components/Education"
-import Contact from "../components/Contact"
-import BodyContainer from "../components/styledComponents/BodyContainer"
-import NavbarSide from "../components/NavbarSide"
-import NavbarTop from "../components/NavbarTop"
-import NavbarSlideOnSmall from "../components/NavbarSlideOnSmall"
+import React from "react";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import { NavProvider } from "../context/NavContext";
+import PageTitleStyles from "../components/styledComponents/PageTitleStyles";
+import Mask from "../components/Mask";
+import About from "../components/About";
+import Intro from "../components/Intro";
+import Projects from "../components/Projects";
+import Skills from "../components/Skills";
+import Education from "../components/Education";
+import Contact from "../components/Contact";
+import BodyContainer from "../components/styledComponents/BodyContainer";
+import NavbarSide from "../components/NavbarSide";
+import NavbarTop from "../components/NavbarTop";
+import NavbarSlideOnSmall from "../components/NavbarSlideOnSmall";
 
 const IndexPage = () => (
   <Layout>
@@ -50,6 +50,6 @@ const IndexPage = () => (
       </BodyContainer>
     </NavProvider>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

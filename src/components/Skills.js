@@ -1,19 +1,19 @@
-import React from "react"
-import SkillsStyles from "./styledComponents/SkillsSytles"
-import html5_logo from "../images/html5.png"
-import ccs3_logo from "../images/css3.png"
-import react_logo from "../images/react.png"
-import redux_logo from "../images/redux-logo.png"
-import bootstrap_logo from "../images/bootstrap.png"
-import jquery_logo from "../images/jquery.png"
-import javascript_logo from "../images/javascript.png"
-import node_logo from "../images/nodejs.png"
-import mongodb_logo from "../images/mongodb.png"
-import heroku_logo from "../images/heroku.png"
-import netlify_logo from "../images/netlify_logo.png"
-import github_logo from "../images/github.png"
-import typescript_logo from "../images/typescript-logo.svg"
-import gatsby_logo from "../images/gatsby_logo.png"
+import React from "react";
+import SkillsStyles from "./styledComponents/SkillsSytles";
+import html5_logo from "../images/html5.png";
+import ccs3_logo from "../images/css3.png";
+import react_logo from "../images/react.png";
+import redux_logo from "../images/redux-logo.png";
+import bootstrap_logo from "../images/bootstrap.png";
+import jquery_logo from "../images/jquery.png";
+import javascript_logo from "../images/javascript.png";
+import node_logo from "../images/nodejs.png";
+import mongodb_logo from "../images/mongodb.png";
+import heroku_logo from "../images/heroku.png";
+import netlify_logo from "../images/netlify_logo.png";
+import github_logo from "../images/github.png";
+import typescript_logo from "../images/typescript-logo.svg";
+import gatsby_logo from "../images/gatsby_logo.png";
 
 const Skills = () => {
   return (
@@ -100,7 +100,7 @@ const Skills = () => {
         </div>
       </SkillsStyles>
     </>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

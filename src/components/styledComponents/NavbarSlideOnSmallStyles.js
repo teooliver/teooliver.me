@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 // grid container
 const NavbarSlideOnSmallStyles = styled.nav`
   .hide-on-large-slide {
@@ -62,6 +62,6 @@ const NavbarSlideOnSmallStyles = styled.nav`
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
-`
+`;
 
-export default NavbarSlideOnSmallStyles
+export default NavbarSlideOnSmallStyles;

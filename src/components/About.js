@@ -1,5 +1,5 @@
-import React from "react"
-import AboutStyles from "./styledComponents/AboutStyles"
+import React from "react";
+import AboutStyles from "./styledComponents/AboutStyles";
 
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
       </p>
       <p>Now I'm looking for a full-time job as a front-end developer.</p>
     </AboutStyles>
-  )
-}
+  );
+};
 
-export default About
+export default About;

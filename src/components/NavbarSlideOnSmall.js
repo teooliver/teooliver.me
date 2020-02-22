@@ -1,10 +1,10 @@
-import React, { useContext } from "react"
-import NavbarSlideOnSmallStyles from "./styledComponents/NavbarSlideOnSmallStyles"
-import { Link } from "react-scroll"
-import { NavContext } from "../context/NavContext"
+import React, { useContext } from "react";
+import NavbarSlideOnSmallStyles from "./styledComponents/NavbarSlideOnSmallStyles";
+import { Link } from "react-scroll";
+import { NavContext } from "../context/NavContext";
 
 const NavbarSlideOnSmall = () => {
-  const { isOpen } = useContext(NavContext)
+  const { isOpen } = useContext(NavContext);
 
   return (
     <NavbarSlideOnSmallStyles isOpen={isOpen}>
@@ -101,7 +101,7 @@ const NavbarSlideOnSmall = () => {
         </ul>
       </div>
     </NavbarSlideOnSmallStyles>
-  )
-}
+  );
+};
 
-export default NavbarSlideOnSmall
+export default NavbarSlideOnSmall;

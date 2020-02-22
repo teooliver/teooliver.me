@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 const GridContainer = styled.div`
   /* border: 10px solid yellow; */
@@ -7,6 +7,6 @@ const GridContainer = styled.div`
   grid-template-columns: repeat(auto-fill, 24rem);
   justify-content: center;
   margin: 2rem;
-`
+`;
 
-export default GridContainer
+export default GridContainer;

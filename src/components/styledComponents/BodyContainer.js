@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 const BodyContainer = styled.div`
   margin-left: 160px;
@@ -13,6 +13,6 @@ const BodyContainer = styled.div`
     margin-top: 60px;
     /* margin-top: 64px; */
   }
-`
+`;
 
-export default BodyContainer
+export default BodyContainer;

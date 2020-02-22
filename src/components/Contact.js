@@ -1,5 +1,5 @@
-import React from "react"
-import ContactCardStyles from "./styledComponents/ContactCardStyles"
+import React from "react";
+import ContactCardStyles from "./styledComponents/ContactCardStyles";
 
 const Contact = () => {
   return (
@@ -56,7 +56,7 @@ const Contact = () => {
       <br />
       <br />
     </>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

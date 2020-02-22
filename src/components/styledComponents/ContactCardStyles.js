@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 const ContactCardStyles = styled.div`
   /* todo: add background color or something */
@@ -89,6 +89,6 @@ const ContactCardStyles = styled.div`
       }
     }
   }
-`
+`;
 
-export default ContactCardStyles
+export default ContactCardStyles;

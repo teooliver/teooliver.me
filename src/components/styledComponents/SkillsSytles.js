@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 const SkillsStyles = styled.div`
   .card {
@@ -44,6 +44,6 @@ const SkillsStyles = styled.div`
       }
     }
   }
-`
+`;
 
-export default SkillsStyles
+export default SkillsStyles;

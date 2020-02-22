@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 const PageTitleStyles = styled.h3`
   box-sizing: border-box;
@@ -10,6 +10,6 @@ const PageTitleStyles = styled.h3`
   margin-top: 0;
   padding: 1.2rem 4rem;
   text-transform: uppercase;
-`
+`;
 
-export default PageTitleStyles
+export default PageTitleStyles;

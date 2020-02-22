@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 // grid container
 const NavbarTopStyles = styled.nav`
   .hide-on-large.top {
@@ -58,6 +58,6 @@ const NavbarTopStyles = styled.nav`
       flex-direction: row;
     }
   }
-`
+`;
 
-export default NavbarTopStyles
+export default NavbarTopStyles;

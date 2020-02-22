@@ -1,10 +1,10 @@
-import React, { useContext } from "react"
-import NavbarTopStyles from "./styledComponents/NavbarTopStyles"
-import { Link } from "react-scroll"
-import { NavContext } from "../context/NavContext"
+import React, { useContext } from "react";
+import NavbarTopStyles from "./styledComponents/NavbarTopStyles";
+import { Link } from "react-scroll";
+import { NavContext } from "../context/NavContext";
 
 const NavbarTop = () => {
-  const { handleSlideNav } = useContext(NavContext)
+  const { handleSlideNav } = useContext(NavContext);
 
   return (
     <NavbarTopStyles>
@@ -25,7 +25,7 @@ const NavbarTop = () => {
         </div>
       </div>
     </NavbarTopStyles>
-  )
-}
+  );
+};
 
-export default NavbarTop
+export default NavbarTop;

@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 const AboutStyles = styled.div`
   box-sizing: border-box;
@@ -21,6 +21,6 @@ const AboutStyles = styled.div`
     margin-top: 0;
     margin-bottom: 1rem;
   }
-`
+`;
 
-export default AboutStyles
+export default AboutStyles;

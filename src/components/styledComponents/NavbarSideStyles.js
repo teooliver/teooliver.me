@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 // grid container
 const NavbarSideStyles = styled.nav`
   h1 {
@@ -72,6 +72,6 @@ const NavbarSideStyles = styled.nav`
     position: relative;
     display: none;
   }
-`
+`;
 
-export default NavbarSideStyles
+export default NavbarSideStyles;

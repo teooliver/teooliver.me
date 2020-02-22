@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 const MaskStyles = styled.div`
   background-color: rgba(3, 3, 3, 0.5);
@@ -11,6 +11,6 @@ const MaskStyles = styled.div`
   position: fixed;
   z-index: 9;
   display: ${props => (props.isOpen ? "block" : "none")};
-`
+`;
 
-export default MaskStyles
+export default MaskStyles;

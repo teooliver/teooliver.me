@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 const EducationStyles = styled.div`
   margin-left: 2rem;
@@ -9,6 +9,6 @@ const EducationStyles = styled.div`
   p {
     margin: 0.6rem;
   }
-`
+`;
 
-export default EducationStyles
+export default EducationStyles;

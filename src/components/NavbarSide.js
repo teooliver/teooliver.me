@@ -1,6 +1,6 @@
-import React from "react"
-import NavbarSideStyles from "./styledComponents/NavbarSideStyles"
-import { Link } from "react-scroll"
+import React from "react";
+import NavbarSideStyles from "./styledComponents/NavbarSideStyles";
+import { Link } from "react-scroll";
 
 const NavbarSide = () => {
   return (
@@ -112,7 +112,7 @@ const NavbarSide = () => {
         </ul>
       </div>
     </NavbarSideStyles>
-  )
-}
+  );
+};
 
-export default NavbarSide
+export default NavbarSide;

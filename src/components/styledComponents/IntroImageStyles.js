@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 const IntroImageStyles = styled.section`
   box-sizing: border-box;
@@ -8,6 +8,6 @@ const IntroImageStyles = styled.section`
     max-height: auto;
     max-width: 100%;
   }
-`
+`;
 
-export default IntroImageStyles
+export default IntroImageStyles;

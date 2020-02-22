@@ -1,5 +1,5 @@
-import React from "react"
-import EducationStyles from "./styledComponents/EducationStyles"
+import React from "react";
+import EducationStyles from "./styledComponents/EducationStyles";
 
 const Education = () => {
   return (
@@ -25,7 +25,7 @@ const Education = () => {
         (Brazil)
       </p>
     </EducationStyles>
-  )
-}
+  );
+};
 
-export default Education
+export default Education;

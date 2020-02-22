@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 const ProjectCardStyles = styled.section`
   background-color: #f9f9f9;
@@ -106,6 +106,6 @@ const ProjectCardStyles = styled.section`
       transform: scale(1) rotateY(0deg) rotateX(0deg) rotateZ(0deg);
     }
   }
-`
+`;
 
-export default ProjectCardStyles
+export default ProjectCardStyles;
