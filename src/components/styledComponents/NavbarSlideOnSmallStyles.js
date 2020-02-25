@@ -10,7 +10,7 @@ const NavbarSlideOnSmallStyles = styled.nav`
     left: ${props => (props.isOpen ? "0px" : "-164px")};
     position: fixed;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 0px;
     z-index: 10;
     transition: 500ms;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),

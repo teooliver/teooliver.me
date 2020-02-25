@@ -109,6 +109,19 @@ const NavbarSide = () => {
             </a>
           </li>
           <hr />
+          <li>
+            <a
+              className="logo-container"
+              href="https://listed.to/@teooliver/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>
+                <i class="fas fa-blog"></i>Blog
+              </span>
+            </a>
+          </li>
+          <hr />
         </ul>
       </div>
     </NavbarSideStyles>
