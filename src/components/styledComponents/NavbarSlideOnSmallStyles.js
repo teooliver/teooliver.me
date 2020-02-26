@@ -31,6 +31,10 @@ const NavbarSlideOnSmallStyles = styled.nav`
     padding-left: 0px;
   }
 
+  li i {
+    margin-right: 0.4rem;
+  }
+
   li a {
     padding: 20px;
   }

@@ -16,6 +16,23 @@ const theme = {
   black: "#393939",
 };
 
+// const light_theme = {
+//   red: "#ff0000",
+//   black: "#393939",
+// };
+
+// const dark_theme = {
+//   primary: "ff0000",
+// };
+
+// switch (selected_theme) {
+//   case light:
+//     return light_theme;
+
+//   case dark:
+//     return dark_theme;
+// }
+
 const Layout = ({ children }) => {
   return (
     <>
