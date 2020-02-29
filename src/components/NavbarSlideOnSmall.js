@@ -34,7 +34,7 @@ const NavbarSlideOnSmall = () => {
               duration={500}
               aria-label="Navigate to the beginning of the page"
             >
-              <span>Projects</span>
+              <span>Side Projects</span>
             </Link>
           </li>
           <hr />

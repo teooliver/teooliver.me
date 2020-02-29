@@ -11,36 +11,25 @@ import Header from "./header";
 import { ThemeProvider } from "styled-components";
 import "./layout.css";
 
-const theme = {
-  red: "#ff0000",
-  black: "#393939",
+export const themes = {
+  light: {
+    foreground: "#000000",
+    background: "#eeeeee",
+  },
+  dark: {
+    foreground: "#ffffff",
+    background: "#222222",
+  },
 };
-
-// const light_theme = {
-//   red: "#ff0000",
-//   black: "#393939",
-// };
-
-// const dark_theme = {
-//   primary: "ff0000",
-// };
-
-// switch (selected_theme) {
-//   case light:
-//     return light_theme;
-
-//   case dark:
-//     return dark_theme;
-// }
 
 const Layout = ({ children }) => {
   return (
     <>
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={themes.light}>
         <Header />
         <div>
           <main>{children}</main>
-          <footer></footer>
+          <footer>Created by Teo Oliver</footer>
         </div>
       </ThemeProvider>
     </>

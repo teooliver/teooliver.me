@@ -32,7 +32,7 @@ const IndexPage = () => (
           <About />
         </section>
         <section id="projects">
-          <PageTitleStyles>Projects</PageTitleStyles>
+          <PageTitleStyles>Side Projects</PageTitleStyles>
           <Projects />
         </section>
         <section id="skills">
