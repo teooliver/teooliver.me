@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import NavbarSideStyles from "./styledComponents/NavbarSideStyles";
 import { Link } from "react-scroll";
+import { ThemeChangeContext } from "../context/ThemeChangeContext";
 
 const NavbarSide = () => {
+  const { changeTheme } = useContext(ThemeChangeContext);
+
   return (
     <NavbarSideStyles>
       <div className="side-nav fixed" id="navbar">
@@ -122,6 +125,10 @@ const NavbarSide = () => {
             </a>
           </li>
           <hr />
+          <li>
+            <button onClick={() => changeTheme("dark")}>Dark</button>
+            <button onClick={() => changeTheme("light")}>Light</button>
+          </li>
         </ul>
       </div>
     </NavbarSideStyles>

@@ -18,6 +18,7 @@ import NavbarSlideOnSmall from "../components/NavbarSlideOnSmall";
 const IndexPage = () => (
   <Layout>
     <SEO title="Teo Oliver" />
+
     <NavProvider>
       <NavbarTop />
       <NavbarSide />

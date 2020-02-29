@@ -5,27 +5,22 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react";
+import React, { useContext } from "react";
 import PropTypes from "prop-types";
-import Header from "./header";
 import { ThemeProvider } from "styled-components";
+import { ThemeChangeContext } from "../context/ThemeChangeContext";
+import Header from "./header";
+import GlobalStyles from "../components/styledComponents/GlobalStyles";
 import "./layout.css";
-
-export const themes = {
-  light: {
-    foreground: "#000000",
-    background: "#eeeeee",
-  },
-  dark: {
-    foreground: "#ffffff",
-    background: "#222222",
-  },
-};
+import { lightTheme, darkTheme } from "./styledComponents/themeVars";
 
 const Layout = ({ children }) => {
+  const { themeMode } = useContext(ThemeChangeContext);
+  console.log("From layout: ", themeMode);
   return (
     <>
-      <ThemeProvider theme={themes.light}>
+      <ThemeProvider theme={themeMode === "light" ? lightTheme : darkTheme}>
+        <GlobalStyles />
         <Header />
         <div>
           <main>{children}</main>

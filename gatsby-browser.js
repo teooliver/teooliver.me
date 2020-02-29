@@ -13,3 +13,11 @@
 // export const wrapRootElement = ({ element }) => {
 //   return <NavProvider>{element}</NavProvider>
 // }
+
+import React from "react";
+import { ThemeChangeProvider } from "./src/context/ThemeChangeContext";
+
+// eslint-disable-next-line react/prop-types
+export const wrapRootElement = ({ element }) => {
+  return <ThemeChangeProvider>{element}</ThemeChangeProvider>;
+};
