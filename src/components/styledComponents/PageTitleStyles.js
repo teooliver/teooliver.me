@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const PageTitleStyles = styled.h3`
   box-sizing: border-box;
-  background-color: #2e2e3d;
+  background-color: ${props => props.theme.primary};
   color: #ffffff;
   font-weight: 200;
   font-size: 1.75rem;

@@ -49,7 +49,7 @@ const NavbarSlideOnSmallStyles = styled.nav`
   li:hover {
     background-color: rgba(0, 0, 0, 0.1);
     padding-left: 2px;
-    border-left: 5px solid #2e2e3d;
+    border-left: 5px solid ${props => props.theme.primary};
     transition: 1000ms;
     transition: border-left 200ms;
   }
