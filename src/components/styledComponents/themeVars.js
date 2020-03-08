@@ -25,3 +25,9 @@ export const darkTheme = {
 // dark-gray = #232931
 // vivid-green = #52bc92
 // dark-green = #618382
+
+// lighten(-primary, 10%)
+// darken(-primary, 10%)
+
+// Lunduke colors
+// https://lunduke.com/page/2/
