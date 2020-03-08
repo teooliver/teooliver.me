@@ -8,7 +8,7 @@
   Teo Oliver
 </h1>
 
-<p>Fully responsive Portifolio website made with Gatsby, React, styled-components and deployed on Netlify.</p>
+<p align="center">Fully responsive Portifolio website made with Gatsby, React, styled-components and deployed on Netlify.</p>
 
 <p align="center">
 Go to <a href="https://teooliver.me/">
