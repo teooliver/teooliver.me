@@ -1,12 +1,21 @@
+// color vars?
+// const white = ???
+// const black = ???
+// const light-grey = #353b42
+// const dark-gray = #232931
+// const vivid-green = #52bc92
+// const dark-green = #618382
+
 export const lightTheme = {
   backgroundColor: "#ffffff",
   primary: "#2e2e3d",
+  // secondary: ????
   // title-background-color: ???
-
-  // white
-  // black
-  // primary
-  // secondary
+  // title-text-color: ???
+  // background-color: ????
+  // card-background-color: ?????
+  // card-text-color: ????
+  // text-color: ????
 };
 
 export const darkTheme = {
@@ -21,10 +30,13 @@ export const darkTheme = {
 // lightcoral = "lightcoral" (instead of light-green)
 // background-primary = ???
 // background-secondary = ???
-// light-grey = #353b42
-// dark-gray = #232931
-// vivid-green = #52bc92
-// dark-green = #618382
+
+// title-background-color: ???
+// title-text-color: ???
+// background-color: ????
+// card-background-color: ?????
+// card-text-color: ????
+// text-color: ????
 
 // lighten(-primary, 10%)
 // darken(-primary, 10%)

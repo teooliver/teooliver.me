@@ -126,8 +126,10 @@ const NavbarSide = () => {
           </li>
           <hr />
           <li>
-            <button onClick={() => changeTheme("dark")}>Dark</button>
-            <button onClick={() => changeTheme("light")}>Light</button>
+            <div className="theme-buttons">
+              <button onClick={() => changeTheme("dark")}>Dark</button>
+              <button onClick={() => changeTheme("light")}>Light</button>
+            </div>
           </li>
         </ul>
       </div>
