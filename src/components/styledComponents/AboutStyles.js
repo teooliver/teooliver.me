@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const AboutStyles = styled.div`
+  color: ${props => props.theme.vividGreen};
   box-sizing: border-box;
   padding-left: 3rem;
   width: 95%;

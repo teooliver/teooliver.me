@@ -13,6 +13,8 @@ import Header from "./header";
 import GlobalStyles from "../components/styledComponents/GlobalStyles";
 import "./layout.css";
 import { lightTheme, darkTheme } from "./styledComponents/themeVars";
+import Footer from "./Footer";
+import FooterStyles from "./styledComponents/FooterStyles";
 
 const Layout = ({ children }) => {
   const { themeMode } = useContext(ThemeChangeContext);
@@ -24,7 +26,7 @@ const Layout = ({ children }) => {
         <Header />
         <div>
           <main>{children}</main>
-          <footer>Created by Teo Oliver</footer>
+          <Footer />
         </div>
       </ThemeProvider>
     </>
