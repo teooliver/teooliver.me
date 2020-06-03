@@ -1,10 +1,10 @@
 import styled from "styled-components";
-// grid container
+
 const NavbarTopStyles = styled.nav`
   .hide-on-large.top {
     display: none;
     position: fixed;
-    background-color: white;
+    background-color: ${props => props.theme.navBackgroundColor};
     height: 60px;
     width: 100%;
     top: 0;
@@ -13,18 +13,15 @@ const NavbarTopStyles = styled.nav`
       0 2px 10px 0 rgba(0, 0, 0, 0.12);
 
     .navbar-title {
-      color: black;
       text-transform: uppercase;
       text-align: center;
       padding-top: 21px;
       position: absolute;
+      /* use calc */
       left: 44%;
       z-index: -1;
-
-      .title {
-        color: black;
-        text-decoration: none;
-      }
+      color: ${props => props.theme.navTextColor};
+      text-decoration: none;
     }
 
     button {
@@ -35,10 +32,10 @@ const NavbarTopStyles = styled.nav`
     }
 
     .open-nav-icon {
-      color: black;
+      color: ${props => props.theme.navTextColor};
       padding: 20px;
       &:hover {
-        color: #008073;
+        color: ${props => props.theme.openNavIconHover};
         /* rotate */
       }
     }
@@ -55,7 +52,7 @@ const NavbarTopStyles = styled.nav`
   @media screen and (max-width: 900px) {
     .hide-on-large.top {
       display: block;
-      flex-direction: row;
+      /* flex-direction: row; */
     }
   }
 `;

@@ -21,6 +21,7 @@ export const lightTheme = {
   navBackgroundColor: "#ffffff",
   themeButtonTextColor: "black",
   themeButtonBorder: "black",
+  openNavIconHover: "#52bc92",
   // vividGreen: "#52bc92",
   // primary: "#2e2e3d",
   // secondary: ????
@@ -45,6 +46,7 @@ export const darkTheme = {
   navBackgroundColor: "#2e2e3d",
   themeButtonTextColor: "#ffffff",
   themeButtonBorder: "#52bc92",
+  openNavIconHover: "#ffffff",
 };
 
 // white = ???

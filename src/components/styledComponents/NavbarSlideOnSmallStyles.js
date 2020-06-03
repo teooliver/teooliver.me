@@ -1,9 +1,10 @@
 import styled from "styled-components";
-// grid container
+
 const NavbarSlideOnSmallStyles = styled.nav`
   .hide-on-large-slide {
+    background-color: ${props => props.theme.navBackgroundColor};
+    color: ${props => props.theme.navTextColor};
     display: block;
-    background-color: white;
     height: 100%;
     width: 164px;
     top: 0;
@@ -37,14 +38,17 @@ const NavbarSlideOnSmallStyles = styled.nav`
 
   li a {
     padding: 20px;
+    color: ${props => props.theme.navTextColor};
+    display: list-item;
+    text-decoration: none;
   }
 
-  li a,
+  /* li a,
   li a:hover {
     color: black;
     display: list-item;
     text-decoration: none;
-  }
+  } */
 
   li:hover {
     background-color: rgba(0, 0, 0, 0.1);

@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import NavbarSlideOnSmallStyles from "./styledComponents/NavbarSlideOnSmallStyles";
 import { Link } from "react-scroll";
 import { NavContext } from "../context/NavContext";
+import ThemeButtons from "./ThemeButtons";
 
 const NavbarSlideOnSmall = () => {
   const { isOpen } = useContext(NavContext);
@@ -111,6 +112,9 @@ const NavbarSlideOnSmall = () => {
             </a>
           </li>
           <hr />
+          <li>
+            <ThemeButtons />
+          </li>
         </ul>
       </div>
     </NavbarSlideOnSmallStyles>
