@@ -34,13 +34,12 @@ const NavbarSideStyles = styled.nav`
 
   li a {
     padding: 20px;
-  }
-
-  li a,
-  li a:hover {
-    /* color: ${props => props.theme.navTextColor}; */
+    color: ${props => props.theme.navTextColor};
     display: list-item;
     text-decoration: none;
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   li:hover {
@@ -54,7 +53,6 @@ const NavbarSideStyles = styled.nav`
   li.logo,
   li.logo:hover {
     font-weight: 300;
-    /* background-color: #ffffff; */
   }
 
   .active {

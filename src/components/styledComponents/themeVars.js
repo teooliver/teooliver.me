@@ -16,8 +16,11 @@ export const lightTheme = {
   backgroundColor: "#ffffff",
   titleBackgroundColor: "#2e2e3d",
   titleTextColor: "#ffffff",
+  aboutTextColor: "black",
   navTextColor: "black",
   navBackgroundColor: "#ffffff",
+  themeButtonTextColor: "black",
+  themeButtonBorder: "black",
   // vividGreen: "#52bc92",
   // primary: "#2e2e3d",
   // secondary: ????
@@ -36,9 +39,12 @@ export const darkTheme = {
   backgroundColor: "#2e2e3d",
   titleBackgroundColor: "#2e2e3d",
   titleTextColor: "#52bc92",
+  aboutTextColor: "#52bc92",
   vividGreen: "#52bc92",
   navTextColor: " #52bc92",
   navBackgroundColor: "#2e2e3d",
+  themeButtonTextColor: "#ffffff",
+  themeButtonBorder: "#52bc92",
 };
 
 // white = ???
