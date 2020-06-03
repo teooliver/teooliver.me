@@ -53,7 +53,7 @@ const NavbarSlideOnSmall = () => {
             </Link>
           </li>
 
-          <hr />
+          {/* <hr />
           <li>
             <Link
               activeClass="active"
@@ -66,7 +66,7 @@ const NavbarSlideOnSmall = () => {
             >
               <span>Education</span>
             </Link>
-          </li>
+          </li> */}
 
           <hr />
           <li>

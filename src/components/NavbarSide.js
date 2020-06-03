@@ -67,7 +67,7 @@ const NavbarSide = () => {
             </Link>
           </li>
 
-          <hr />
+          {/* <hr />
           <li>
             <Link
               activeClass="active"
@@ -80,7 +80,7 @@ const NavbarSide = () => {
             >
               <span>Education</span>
             </Link>
-          </li>
+          </li> */}
 
           <hr />
           <li>

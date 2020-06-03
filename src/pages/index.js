@@ -40,10 +40,10 @@ const IndexPage = () => (
           <PageTitleStyles>Skills</PageTitleStyles>
           <Skills />
         </section>
-        <section id="education">
+        {/* <section id="education">
           <PageTitleStyles>Education</PageTitleStyles>
           <Education />
-        </section>
+        </section> */}
         <section id="contact">
           <PageTitleStyles>Contact</PageTitleStyles>
           <Contact />
