@@ -8,7 +8,7 @@ const AboutStyles = styled.div`
   margin-bottom: 2rem;
 
   blockquote {
-    border-left: 5px solid black;
+    border-left: 5px solid ${props => props.theme.aboutTextColor};
     padding-left: 1.5rem;
     font-size: 2.2rem;
     margin-left: 0;
