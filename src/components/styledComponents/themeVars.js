@@ -16,6 +16,8 @@ export const lightTheme = {
   backgroundColor: "#ffffff",
   titleBackgroundColor: "#2e2e3d",
   titleTextColor: "#ffffff",
+  navTextColor: "black",
+  navBackgroundColor: "#ffffff",
   // vividGreen: "#52bc92",
   // primary: "#2e2e3d",
   // secondary: ????
@@ -35,6 +37,8 @@ export const darkTheme = {
   titleBackgroundColor: "#2e2e3d",
   titleTextColor: "#52bc92",
   vividGreen: "#52bc92",
+  navTextColor: " #52bc92",
+  navBackgroundColor: "#2e2e3d",
 };
 
 // white = ???

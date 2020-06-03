@@ -9,6 +9,8 @@ const NavbarSideStyles = styled.nav`
     line-height: 1.2;
   }
   .side-nav.fixed {
+    background-color: ${props => props.theme.navBackgroundColor};
+    color: ${props => props.theme.navTextColor};
     height: 100%;
     width: 160px;
     top: 0;
@@ -36,7 +38,7 @@ const NavbarSideStyles = styled.nav`
 
   li a,
   li a:hover {
-    color: black;
+    /* color: ${props => props.theme.navTextColor}; */
     display: list-item;
     text-decoration: none;
   }
@@ -52,7 +54,7 @@ const NavbarSideStyles = styled.nav`
   li.logo,
   li.logo:hover {
     font-weight: 300;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
   }
 
   .active {
