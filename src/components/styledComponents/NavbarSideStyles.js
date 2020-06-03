@@ -68,14 +68,6 @@ const NavbarSideStyles = styled.nav`
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .theme-buttons {
-    text-align: center;
-    button:hover {
-      background: ${props => props.theme.primary};
-      color: white;
-    }
-  }
-
   @media screen and (max-width: 900px) {
     position: relative;
     display: none;

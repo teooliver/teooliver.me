@@ -97,6 +97,15 @@ const ContactCardStyles = styled.div`
         display: none;
       }
     }
+    .contact-card-logo {
+      position: absolute;
+      top: 22px;
+      right: 10px;
+      svg {
+        width: 10rem;
+        height: auto;
+      }
+    }
   }
 `;
 
