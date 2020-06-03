@@ -34,6 +34,9 @@ const NavbarTopStyles = styled.nav`
     .open-nav-icon {
       color: ${props => props.theme.navTextColor};
       padding: 20px;
+      width: 3rem;
+      height: 3rem;
+      font-size: 1.4rem;
       &:hover {
         color: ${props => props.theme.openNavIconHover};
         /* rotate */
@@ -51,6 +54,7 @@ const NavbarTopStyles = styled.nav`
 
   @media screen and (max-width: 900px) {
     .hide-on-large.top {
+      /* use flex */
       display: block;
       /* flex-direction: row; */
     }
