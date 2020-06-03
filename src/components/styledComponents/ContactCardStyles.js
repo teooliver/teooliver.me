@@ -72,6 +72,15 @@ const ContactCardStyles = styled.div`
       vertical-align: middle;
     }
   }
+  .contact-card-logo {
+    position: absolute;
+    top: 52px;
+    right: 40px;
+    svg {
+      width: 12rem;
+      height: auto;
+    }
+  }
 
   @media screen and (max-width: 600px) {
     width: 270px;
