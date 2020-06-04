@@ -14,14 +14,13 @@ import GlobalStyles from "../components/styledComponents/GlobalStyles";
 import "./layout.css";
 import { lightTheme, darkTheme } from "./styledComponents/themeVars";
 import Footer from "./Footer";
-import FooterStyles from "./styledComponents/FooterStyles";
 
 const Layout = ({ children }) => {
   const { themeMode } = useContext(ThemeChangeContext);
   console.log("From layout: ", themeMode);
   return (
     <>
-      <ThemeProvider theme={themeMode === "light" ? lightTheme : darkTheme}>
+      <ThemeProvider theme={themeMode === "dark" ? darkTheme : lightTheme}>
         <GlobalStyles />
         <Header />
         <div>

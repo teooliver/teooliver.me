@@ -4,7 +4,6 @@ export const ThemeChangeContext = createContext("light");
 
 export const ThemeChangeProvider = props => {
   const [themeMode, setThemeMode] = useState("light");
-  // console.log(themeMode);
 
   const changeTheme = selected_theme => {
     setThemeMode(selected_theme);
