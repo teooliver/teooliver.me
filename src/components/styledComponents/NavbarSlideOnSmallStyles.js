@@ -70,6 +70,13 @@ const NavbarSlideOnSmallStyles = styled.nav`
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
+
+  .t_logo {
+    svg {
+      width: 8.5rem;
+      height: auto;
+    }
+  }
 `;
 
 export default NavbarSlideOnSmallStyles;

@@ -3,6 +3,7 @@ import NavbarSlideOnSmallStyles from "./styledComponents/NavbarSlideOnSmallStyle
 import { Link } from "react-scroll";
 import { NavContext } from "../context/NavContext";
 import ThemeButtons from "./ThemeButtons";
+import T_Logo from "./T_Logo";
 
 const NavbarSlideOnSmall = () => {
   const { isOpen } = useContext(NavContext);
@@ -11,6 +12,22 @@ const NavbarSlideOnSmall = () => {
     <NavbarSlideOnSmallStyles isOpen={isOpen}>
       <div className="hide-on-large-slide" id="navbar">
         <ul>
+          <li className="logo">
+            <Link
+              activeClass="active"
+              className="scrool-link"
+              to="intro"
+              spy={true}
+              smooth={true}
+              duration={500}
+              aria-label="Navigate to the beginning of the page"
+            >
+              <div className="t_logo">
+                <T_Logo />
+              </div>
+            </Link>
+          </li>
+          <hr />
           <li>
             <Link
               activeClass="active"
