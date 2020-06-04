@@ -19,6 +19,7 @@ const NavbarTop = () => {
             Teo Oliver
           </Link>
         </div>
+        <div className="dummy"></div>
       </div>
     </NavbarTopStyles>
   );

@@ -13,7 +13,7 @@ const NavbarTopStyles = styled.nav`
       0 2px 10px 0 rgba(0, 0, 0, 0.12);
 
     .navbar-title {
-      flex-grow: 4;
+      /* flex-grow: 2; */
       text-align: center;
       a {
         text-transform: uppercase;
@@ -26,7 +26,8 @@ const NavbarTopStyles = styled.nav`
 
     .button-toggle-nav {
       button {
-        /* width: 3rem; */
+        /* flex-grow: 1; */
+        width: 3rem;
         margin: 1rem;
         padding: 0;
         border: none;
@@ -42,6 +43,11 @@ const NavbarTopStyles = styled.nav`
         }
       }
     }
+    .dummy {
+      width: 3rem;
+      margin: 1rem;
+      /* flex-grow: 1; */
+    }
   }
 
   @media screen and (max-width: 900px) {
@@ -49,7 +55,7 @@ const NavbarTopStyles = styled.nav`
       display: flex;
       flex-direction: row;
       align-items: center;
-      /* justify-content: center; */
+      justify-content: space-between;
     }
   }
 `;
