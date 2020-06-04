@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 const PageTitleStyles = styled.h3`
   box-sizing: border-box;
-  background-color: #2e2e3d;
-  color: #ffffff;
+  background-color: ${props => props.theme.titleBackgroundColor};
+  color: ${props => props.theme.titleTextColor};
   font-weight: 200;
   font-size: 1.75rem;
   margin-bottom: 3rem;

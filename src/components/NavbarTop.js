@@ -9,17 +9,13 @@ const NavbarTop = () => {
   return (
     <NavbarTopStyles>
       <div className="hide-on-large top">
-        <button className="button-toggle-nav" onClick={() => handleSlideNav()}>
-          <i className="open-nav-icon fas fa-bars"></i>
-        </button>
-        <div className="navbar-title" id="title">
-          <Link
-            className="title"
-            to="intro"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
+        <div className="button-toggle-nav">
+          <button onClick={() => handleSlideNav()}>
+            <i className="open-nav-icon fas fa-bars"></i>
+          </button>
+        </div>
+        <div className="navbar-title">
+          <Link to="intro" spy={true} smooth={true} duration={500}>
             Teo Oliver
           </Link>
         </div>

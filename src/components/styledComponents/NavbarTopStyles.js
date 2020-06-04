@@ -1,10 +1,10 @@
 import styled from "styled-components";
-// grid container
+
 const NavbarTopStyles = styled.nav`
   .hide-on-large.top {
     display: none;
     position: fixed;
-    background-color: white;
+    background-color: ${props => props.theme.navBackgroundColor};
     height: 60px;
     width: 100%;
     top: 0;
@@ -13,49 +13,43 @@ const NavbarTopStyles = styled.nav`
       0 2px 10px 0 rgba(0, 0, 0, 0.12);
 
     .navbar-title {
-      color: black;
-      text-transform: uppercase;
+      flex-grow: 4;
       text-align: center;
-      padding-top: 21px;
-      position: absolute;
-      left: 44%;
-      z-index: -1;
-
-      .title {
-        color: black;
+      a {
+        text-transform: uppercase;
         text-decoration: none;
-      }
-    }
-
-    button {
-      margin: 0;
-      padding: 0;
-      border: none;
-      background-color: transparent;
-    }
-
-    .open-nav-icon {
-      color: black;
-      padding: 20px;
-      &:hover {
-        color: #008073;
-        /* rotate */
+        font-size: 1.4rem;
+        z-index: -1;
+        color: ${props => props.theme.navTextColor};
       }
     }
 
     .button-toggle-nav {
-      float: left;
-      /* margin-left: 20px; */
-    }
-    a.button-toggle-nav:hover {
-      cursor: pointer;
+      button {
+        /* width: 3rem; */
+        margin: 1rem;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        .open-nav-icon {
+          color: ${props => props.theme.navTextColor};
+          font-size: 1.4rem;
+          &:hover {
+            cursor: pointer;
+            color: ${props => props.theme.openNavIconHover};
+            /* rotate */
+          }
+        }
+      }
     }
   }
 
   @media screen and (max-width: 900px) {
     .hide-on-large.top {
-      display: block;
+      display: flex;
       flex-direction: row;
+      align-items: center;
+      /* justify-content: center; */
     }
   }
 `;

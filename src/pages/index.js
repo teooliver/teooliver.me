@@ -18,6 +18,7 @@ import NavbarSlideOnSmall from "../components/NavbarSlideOnSmall";
 const IndexPage = () => (
   <Layout>
     <SEO title="Teo Oliver" />
+
     <NavProvider>
       <NavbarTop />
       <NavbarSide />
@@ -32,17 +33,17 @@ const IndexPage = () => (
           <About />
         </section>
         <section id="projects">
-          <PageTitleStyles>Projects</PageTitleStyles>
+          <PageTitleStyles>Side Projects</PageTitleStyles>
           <Projects />
         </section>
         <section id="skills">
           <PageTitleStyles>Skills</PageTitleStyles>
           <Skills />
         </section>
-        <section id="education">
+        {/* <section id="education">
           <PageTitleStyles>Education</PageTitleStyles>
           <Education />
-        </section>
+        </section> */}
         <section id="contact">
           <PageTitleStyles>Contact</PageTitleStyles>
           <Contact />

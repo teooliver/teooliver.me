@@ -1,6 +1,7 @@
 import React from "react";
 import NavbarSideStyles from "./styledComponents/NavbarSideStyles";
 import { Link } from "react-scroll";
+import ThemeButtons from "./ThemeButtons";
 
 const NavbarSide = () => {
   return (
@@ -45,7 +46,7 @@ const NavbarSide = () => {
               duration={500}
               aria-label="Navigate to the beginning of the page"
             >
-              <span>Projects</span>
+              <span>Side Projects</span>
             </Link>
           </li>
           <hr />
@@ -64,7 +65,7 @@ const NavbarSide = () => {
             </Link>
           </li>
 
-          <hr />
+          {/* <hr />
           <li>
             <Link
               activeClass="active"
@@ -77,7 +78,7 @@ const NavbarSide = () => {
             >
               <span>Education</span>
             </Link>
-          </li>
+          </li> */}
 
           <hr />
           <li>
@@ -109,6 +110,22 @@ const NavbarSide = () => {
             </a>
           </li>
           <hr />
+          <li>
+            <a
+              className="logo-container"
+              href="https://listed.to/@teooliver/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>
+                <i class="fas fa-blog"></i>Blog
+              </span>
+            </a>
+          </li>
+          <hr />
+          <li>
+            <ThemeButtons />
+          </li>
         </ul>
       </div>
     </NavbarSideStyles>

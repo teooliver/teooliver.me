@@ -1,5 +1,7 @@
 import React from "react";
 import ContactCardStyles from "./styledComponents/ContactCardStyles";
+import T_Logo from "./T_Logo";
+// import { ReactComponent as T_Logo } from "../images/teo_oliver_logo_v6.svg";
 
 const Contact = () => {
   return (
@@ -34,6 +36,9 @@ const Contact = () => {
               <span>linkedin.com/in/teooliver</span>
             </a>
           </p>
+          <div className="contact-card-logo">
+            <T_Logo />
+          </div>
         </div>
       </ContactCardStyles>
       <br />

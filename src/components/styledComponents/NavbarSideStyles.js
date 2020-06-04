@@ -9,6 +9,8 @@ const NavbarSideStyles = styled.nav`
     line-height: 1.2;
   }
   .side-nav.fixed {
+    background-color: ${props => props.theme.navBackgroundColor};
+    color: ${props => props.theme.navTextColor};
     height: 100%;
     width: 160px;
     top: 0;
@@ -32,19 +34,18 @@ const NavbarSideStyles = styled.nav`
 
   li a {
     padding: 20px;
-  }
-
-  li a,
-  li a:hover {
-    color: black;
+    color: ${props => props.theme.navTextColor};
     display: list-item;
     text-decoration: none;
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   li:hover {
     background-color: rgba(0, 0, 0, 0.1);
     padding-left: 2px;
-    border-left: 5px solid #2e2e3d;
+    border-left: 5px solid ${props => props.theme.primary};
     transition: 1000ms;
     transition: border-left 200ms;
   }
@@ -52,7 +53,6 @@ const NavbarSideStyles = styled.nav`
   li.logo,
   li.logo:hover {
     font-weight: 300;
-    background-color: #ffffff;
   }
 
   .active {

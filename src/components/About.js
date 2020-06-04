@@ -14,10 +14,10 @@ const About = () => {
         with games and then to web development.
       </p>
       <p>
-        I’ve played with a lot of front-end libraries and frameworks but React
-        is my preferred one. Because of that I got into the MERN stack.
+        After 10 years working in the music industry I decided to go fulltime as
+        a programmer and leave music as a hobby. I love learning new
+        technologies and languages and I'm always up for new challenges.
       </p>
-      <p>Now I'm looking for a full-time job as a front-end developer.</p>
     </AboutStyles>
   );
 };

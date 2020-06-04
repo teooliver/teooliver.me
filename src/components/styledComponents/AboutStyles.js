@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 const AboutStyles = styled.div`
+  color: ${props => props.theme.aboutTextColor};
   box-sizing: border-box;
   padding-left: 3rem;
   width: 95%;
   margin-bottom: 2rem;
 
   blockquote {
-    border-left: 5px solid black;
+    border-left: 5px solid ${props => props.theme.aboutTextColor};
     padding-left: 1.5rem;
     font-size: 2.2rem;
     margin-left: 0;

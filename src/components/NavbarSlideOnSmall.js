@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import NavbarSlideOnSmallStyles from "./styledComponents/NavbarSlideOnSmallStyles";
 import { Link } from "react-scroll";
 import { NavContext } from "../context/NavContext";
+import ThemeButtons from "./ThemeButtons";
 
 const NavbarSlideOnSmall = () => {
   const { isOpen } = useContext(NavContext);
@@ -34,7 +35,7 @@ const NavbarSlideOnSmall = () => {
               duration={500}
               aria-label="Navigate to the beginning of the page"
             >
-              <span>Projects</span>
+              <span>Side Projects</span>
             </Link>
           </li>
           <hr />
@@ -53,7 +54,7 @@ const NavbarSlideOnSmall = () => {
             </Link>
           </li>
 
-          <hr />
+          {/* <hr />
           <li>
             <Link
               activeClass="active"
@@ -66,7 +67,7 @@ const NavbarSlideOnSmall = () => {
             >
               <span>Education</span>
             </Link>
-          </li>
+          </li> */}
 
           <hr />
           <li>
@@ -98,6 +99,22 @@ const NavbarSlideOnSmall = () => {
             </a>
           </li>
           <hr />
+          <li>
+            <a
+              className="logo-container"
+              href="https://listed.to/@teooliver/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>
+                <i class="fas fa-blog"></i>Blog
+              </span>
+            </a>
+          </li>
+          <hr />
+          <li>
+            <ThemeButtons />
+          </li>
         </ul>
       </div>
     </NavbarSlideOnSmallStyles>
