@@ -22,7 +22,7 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <i className="fab fa-github"></i>
-              <span>github.com/teo-oliver</span>
+              <span>github.com/teooliver</span>
             </a>
           </p>
           <p className="p-contact">
