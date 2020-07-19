@@ -1,7 +1,6 @@
 import React from "react";
 import ContactCardStyles from "./styledComponents/ContactCardStyles";
 import T_Logo from "./T_Logo";
-// import { ReactComponent as T_Logo } from "../images/teo_oliver_logo_v6.svg";
 
 const Contact = () => {
   return (
@@ -18,7 +17,7 @@ const Contact = () => {
           </p>
           <p className="p-contact">
             <a
-              href="https://github.com/teo-oliver"
+              href="https://github.com/teooliver"
               target="_blank"
               rel="noopener noreferrer"
             >

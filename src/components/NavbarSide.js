@@ -100,7 +100,7 @@ const NavbarSide = () => {
           <li>
             <a
               className="logo-container"
-              href="https://github.com/teo-oliver"
+              href="https://github.com/teooliver"
               target="_blank"
               rel="noopener noreferrer"
             >
