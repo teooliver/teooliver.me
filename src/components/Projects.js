@@ -22,7 +22,7 @@ const Projects = () => {
         tools="Typescript, React, Redux ,Dexie.js and Sass"
         link="https://habitgrid.xyz/"
         btnText="View Online"
-        link2="https://github.com/teo-oliver/habit-tracker-js"
+        link2="https://github.com/teooliver/habit-grid"
         btnText2="View Code"
       />
       <ProjectCard
