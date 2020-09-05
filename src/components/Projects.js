@@ -9,18 +9,18 @@ import devconnector_image from "../images/DevoConnector_v2.png";
 import black_iris_image from "../images/Black_Iris.jpg";
 import teooliver_me_image from "../images/teooliver_me_image.png";
 import password_generator_image from "../images/password_generator_image.png";
-import habit_tracker_table from "../images/habit-tracker-table.png";
+import habit_grid from "../images/habit-grid-image.png";
 
 const Projects = () => {
   return (
     //Todo: add teooliver.me and password generator
     <GridContainer>
       <ProjectCard
-        img={habit_tracker_table}
-        title="Habit-Tracker"
-        description="Full Stack Mern App with User Authentication"
-        tools="React, redux, lodash, express, REST API, mongoDb, mongoose, express-validator, jsonwebtoken, bcryptjs "
-        link="https://trackhab.herokuapp.com/"
+        img={habit_grid}
+        title="Habit Grid"
+        description="Habit Grid is a minimalistic app to help you track and build habits. With a simple and straight to the point interface, you dont have to configure or learn anything to use the app. Just add the habit/task and click the cells to track."
+        tools="Typescript, React, Redux ,Dexie.js and Sass"
+        link="https://habitgrid.xyz/"
         btnText="View Online"
         link2="https://github.com/teo-oliver/habit-tracker-js"
         btnText2="View Code"
