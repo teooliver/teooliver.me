@@ -21,7 +21,7 @@ const About = () => {
 
       <h1>Hi there, I'm Teo 👋</h1>
       <blockquote>
-        I'm a Web Developer specialized in React and Typescript.
+        I'm a Web Developer who is passionate about React and Typescript.
       </blockquote>
 
       <h2> About:</h2>
@@ -50,6 +50,12 @@ const About = () => {
         <li>
           <a href="https://habitgrid.xyz">HabitGrid</a> - A Habit Tracker PWA
           built with React, Redux, Dexie.js and Sass.{" "}
+        </li>
+        <li>
+          <a href="https://github.com/teooliver/time-tracker-base">
+            Time Tracker Base
+          </a>{" "}
+          - A Typescript toggl/clockify like clone.{" "}
         </li>
       </ul>
 
