@@ -21,7 +21,7 @@ const About = () => {
 
       <h1>Hi there, I'm Teo 👋</h1>
       <blockquote>
-        I'm a Web Developer aiming to be a React/Typescript specialist.
+        I'm a Web Developer specialized in React and Typescript.
       </blockquote>
 
       <h2> About:</h2>
@@ -35,7 +35,7 @@ const About = () => {
         </li>
         <li>
           {" "}
-          🌱 Learning more about and studying: **CS Algorithms, Testing, Figma,
+          🌱 Learning more about and studying: **CS Algorithms, Testing,
           Docker**
         </li>
         <li>
