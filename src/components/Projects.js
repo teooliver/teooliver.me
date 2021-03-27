@@ -10,19 +10,41 @@ import black_iris_image from "../images/Black_Iris.jpg";
 import teooliver_me_image from "../images/teooliver_me_image.png";
 import password_generator_image from "../images/password_generator_image.png";
 import habit_grid from "../images/habit-grid-image.png";
+import time_tracker_base from "../images/time-tracker-base.png";
 
 const Projects = () => {
   return (
     //Todo: add teooliver.me and password generator
     <GridContainer>
       <ProjectCard
+        img={time_tracker_base}
+        title="Time Tracker Base"
+        description="A Typescript toggl/clockify like clone. I'm using Express.js,MongoDB and Docker in the backend and React in the frontend. "
+        tools="Typescript, React, React Query , MongoDB, Express and Docker"
+        link="https://github.com/teooliver/time-tracker-base"
+        btnText="View Code"
+      />
+      <ProjectCard
         img={habit_grid}
         title="Habit Grid"
-        description="Habit Grid is a minimalistic app to help you track and build habits. With a simple and straight to the point interface, you dont have to configure or learn anything to use the app. Just add the habit/task and click the cells to track."
+        description="Habit Grid is a minimalistic app to help you track and build habits.
+        This is a PWA and it works 100% offline.
+        "
         tools="Typescript, React, Redux ,Dexie.js and Sass"
         link="https://habitgrid.xyz/"
         btnText="View Online"
         link2="https://github.com/teooliver/habit-grid"
+        btnText2="View Code"
+      />
+
+      <ProjectCard
+        img={ligth_out_image}
+        title="Lights Out"
+        description="Game made with React and the Howler library for playing the music and sound design."
+        tools={"React, Howler, react-transition-group "}
+        link="https://nifty-haibt-8b22b3.netlify.com/"
+        btnText="View Online"
+        link2="https://github.com/teo-oliver/lights-out-game"
         btnText2="View Code"
       />
       <ProjectCard
@@ -35,16 +57,7 @@ const Projects = () => {
         link2="https://github.com/teo-oliver/date-checking-app"
         btnText2="View Code"
       />
-      <ProjectCard
-        img={ligth_out_image}
-        title="Lights Out"
-        description="Game made with React and the Howler library for the sound"
-        tools={"React, Howler, react-transition-group "}
-        link="https://nifty-haibt-8b22b3.netlify.com/"
-        btnText="View Online"
-        link2="https://github.com/teo-oliver/lights-out-game"
-        btnText2="View Code"
-      />
+
       <ProjectCard
         img={retrace_image}
         title="Retrace"
@@ -53,15 +66,15 @@ const Projects = () => {
         link="https://github.com/teo-oliver/retrace_0.1"
         btnText="View Code"
       />
-      <ProjectCard
+      {/* <ProjectCard
         img={teooliver_me_image}
         title="teooliver.me"
         description="Fully responsive Portifolio website"
         tools={"React, Gatsby, styled-components, ContextAPI"}
         link="https://github.com/teo-oliver/teooliver.me"
         btnText="View Code"
-      />
-      <ProjectCard
+      /> */}
+      {/* <ProjectCard
         img={password_generator_image}
         title="Password Generator"
         description="React with Typescript app"
@@ -70,8 +83,8 @@ const Projects = () => {
         btnText="View Online"
         link2="https://github.com/teo-oliver/password-generator"
         btnText2="View Code"
-      />
-      <ProjectCard
+      /> */}
+      {/* <ProjectCard
         img={todo_list_image}
         title="Mern Todo List"
         description="A Simple Todo List App - MERN stack"
@@ -82,8 +95,8 @@ const Projects = () => {
         btnText="View Online"
         link2="https://github.com/teo-oliver/MERN_TodoList"
         btnText2="View Code"
-      />
-      <ProjectCard
+      /> */}
+      {/* <ProjectCard
         img={devconnector_image}
         title="DevConnector"
         description="Project based on Brad Traversy's course - MERN Front To Back
@@ -92,7 +105,7 @@ const Projects = () => {
         btnText="View Online"
         link2="https://github.com/teo-oliver/DevConnector_v2"
         btnText2="View Code"
-      />
+      /> */}
       <ProjectCard
         img={black_iris_image}
         title="Black Iris"
