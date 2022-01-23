@@ -99,10 +99,10 @@ const ContactCardStyles = styled.div`
     }
     .contact-card-logo {
       position: absolute;
-      top: 22px;
-      right: 10px;
+      top: 30px;
+      right: 8px;
       svg {
-        width: 10rem;
+        width: 6rem;
         height: auto;
       }
     }

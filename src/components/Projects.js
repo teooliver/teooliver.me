@@ -14,22 +14,21 @@ import time_tracker_base from "../images/time-tracker-base.png";
 
 const Projects = () => {
   return (
-    //Todo: add teooliver.me and password generator
     <GridContainer>
       <ProjectCard
         img={time_tracker_base}
-        title="Time Tracker Base"
-        description="A Typescript toggl/clockify like clone. I'm using Express.js,MongoDB and Docker in the backend and React in the frontend. "
-        tools="Typescript, React, React Query , MongoDB, Express and Docker"
-        link="https://github.com/teooliver/time-tracker-base"
+        title="⏱️ Time Tracker Base"
+        description="🦀 A fullstack time tracker app inspired by toggl/clockify. "
+        detail="Written in Rust on the server side and React + Typescript on the client."
+        tools="Rust, Warp, MongoDB, Typescript, React, React Query, Docker"
+        link="https://github.com/teooliver/time-tracker-base-v2"
         btnText="View Code"
       />
       <ProjectCard
         img={habit_grid}
-        title="Habit Grid"
-        description="Habit Grid is a minimalistic app to help you track and build habits.
-        This is a PWA and it works 100% offline.
-        "
+        title="🟣 HabitGrid"
+        description="A Habit Tracker PWA that works 100% Offline."
+        detail="It uses IndexedDB and Service-Workers making it a PWA that can be used 100% Offline."
         tools="Typescript, React, Redux ,Dexie.js and Sass"
         link="https://habitgrid.xyz/"
         btnText="View Online"
@@ -39,7 +38,7 @@ const Projects = () => {
 
       <ProjectCard
         img={ligth_out_image}
-        title="Lights Out"
+        title="🕹️ Lights Out"
         description="Game made with React and the Howler library for playing the music and sound design."
         tools={"React, Howler, react-transition-group "}
         link="https://nifty-haibt-8b22b3.netlify.com/"
@@ -47,7 +46,7 @@ const Projects = () => {
         link2="https://github.com/teo-oliver/lights-out-game"
         btnText2="View Code"
       />
-      <ProjectCard
+      {/* <ProjectCard
         img={inventory_image}
         title="Inventory Management"
         description="Full Stack Mern App to help reduce retail shrinkage"
@@ -65,7 +64,7 @@ const Projects = () => {
         tools="Django, SQLite, html, bootstrap"
         link="https://github.com/teo-oliver/retrace_0.1"
         btnText="View Code"
-      />
+      /> */}
       {/* <ProjectCard
         img={teooliver_me_image}
         title="teooliver.me"
@@ -106,7 +105,7 @@ const Projects = () => {
         link2="https://github.com/teo-oliver/DevConnector_v2"
         btnText2="View Code"
       /> */}
-      <ProjectCard
+      {/* <ProjectCard
         img={black_iris_image}
         title="Black Iris"
         description="Indie Game made with Unreal Engine - My programming role was
@@ -114,7 +113,7 @@ const Projects = () => {
         tools={"Unreal Engine, Fmod, MIDI, Reaper, Orchestral Tools"}
         link="https://www.youtube.com/watch?v=h5YfiaVKU5k"
         btnText="View Trailer"
-      />
+      /> */}
     </GridContainer>
   );
 };

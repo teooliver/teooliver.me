@@ -57,7 +57,7 @@ const NavbarSlideOnSmall = () => {
           </li>
           <hr />
 
-          <li>
+          {/* <li>
             <Link
               activeClass="active"
               className="scrool-link"
@@ -69,7 +69,7 @@ const NavbarSlideOnSmall = () => {
             >
               <span>Skills</span>
             </Link>
-          </li>
+          </li> */}
 
           {/* <hr />
           <li>

@@ -36,10 +36,10 @@ const IndexPage = () => (
           <PageTitleStyles>Side Projects</PageTitleStyles>
           <Projects />
         </section>
-        <section id="skills">
+        {/* <section id="skills">
           <PageTitleStyles>Skills</PageTitleStyles>
           <Skills />
-        </section>
+        </section> */}
         {/* <section id="education">
           <PageTitleStyles>Education</PageTitleStyles>
           <Education />

@@ -51,7 +51,7 @@ const NavbarSide = () => {
           </li>
           <hr />
 
-          <li>
+          {/* <li>
             <Link
               activeClass="active"
               className="scrool-link"
@@ -63,7 +63,7 @@ const NavbarSide = () => {
             >
               <span>Skills</span>
             </Link>
-          </li>
+          </li> */}
 
           {/* <hr />
           <li>

@@ -9,7 +9,6 @@ export const ThemeChangeProvider = props => {
     setThemeMode(selected_theme);
   };
 
-  console.log(themeMode);
   return (
     <ThemeChangeContext.Provider value={{ themeMode, changeTheme }}>
       {props.children}

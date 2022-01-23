@@ -1,10 +1,11 @@
-import React from "react"
-import ProjectCardStyles from "../styledComponents/ProjectCardStyles"
+import React from "react";
+import ProjectCardStyles from "../styledComponents/ProjectCardStyles";
 
 const ProjectCard = ({
   img,
   title,
   description,
+  detail,
   link,
   link2,
   btnText,
@@ -18,11 +19,12 @@ const ProjectCard = ({
       <div className="card-body">
         <div className="card-title">{title}</div>
         <p className="card-text">{description}</p>
-        {tools ? (
+        {detail && <p className="card-text">{detail}</p>}
+        {tools && (
           <p className="card-text">
             <span>Tools:</span> {tools}
           </p>
-        ) : null}
+        )}
         <a
           href={link}
           className="btn"
@@ -43,7 +45,7 @@ const ProjectCard = ({
         ) : null}
       </div>
     </ProjectCardStyles>
-  )
-}
+  );
+};
 
-export default ProjectCard
+export default ProjectCard;

@@ -24,7 +24,7 @@ const Skills = () => {
           <div className="card-body">
             <div className="text-center">
               <img className="badge-img" src={javascript_logo} alt="" />
-              Javascrip
+              Javascript
             </div>
             <div className="text-center">
               <img className="badge-img" src={typescript_logo} alt="" />
@@ -56,14 +56,14 @@ const Skills = () => {
               <img className="badge-img" src={gatsby_logo} alt="" />
               Gatsby
             </div>
-            <div className="text-center">
+            {/* <div className="text-center">
               <img className="badge-img" src={bootstrap_logo} alt="" />
               Bootstrap
             </div>
             <div className="text-center">
               <img className="badge-img" src={jquery_logo} alt="" />
               jQuery
-            </div>
+            </div> */}
           </div>
         </div>
       </SkillsStyles>
@@ -73,7 +73,7 @@ const Skills = () => {
           <div className="card-body">
             <div className="text-center">
               <img className="badge-img" src={javascript_logo} alt="" />
-              Javascrip
+              Javascript
             </div>
             <div className="text-center">
               <img className="badge-img" src={node_logo} alt="" />
